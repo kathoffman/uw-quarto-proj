@@ -1,0 +1,6 @@
+---
+title: "Homework Assignment #1"
+format: html
+embed-resources: true
+---
+

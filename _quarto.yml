@@ -1,0 +1,16 @@
+project:
+  title: "Class name"
+  execute-dir: project
+
+author:
+    - Kat Hoffman
+subtitle: "Class title"
+date: last-modified
+toc: true
+
+format:
+  html:
+    theme: [journal, custom.scss]
+    title-block-banner: true
+    embed-resources: true
+    html-math-method: katex
