@@ -4,3 +4,36 @@ format: html
 embed-resources: true
 ---
 
+```{r setup, include=FALSE}
+### Setup
+knitr::opts_chunk$set(echo = F, warning=F, message=F)
+options("digits" = 6)
+library(tidyverse)
+library(ggplot2); theme_set(theme_classic())
+library(patchwork) # for putting plots together
+library(ggpubr) # for stat_cor functions
+library(gtsummary)
+library(gt)
+library(survival)
+library(survminer)
+library(broom) 
+library(metafor) # metaanalyses
+library(janitor)
+library(pwr) # power calcs
+library(quantreg) # for rq function
+library(see) # for violin half-plots
+library(fastDummies) # for making dummy vars
+library(boot) # bootstrapping
+library(ggdag) # create DAGs
+library(dagitty)
+library(rigr) # robust ses
+# UW color palette
+uw_pal <- c("#4b2e83", "#85754d")
+```
+
+
+# Appendix: Code for all questions
+
+```{r ref.label=knitr::all_labels(), echo=TRUE, eval=FALSE}
+```
+
